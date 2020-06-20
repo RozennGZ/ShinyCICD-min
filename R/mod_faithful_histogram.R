@@ -9,6 +9,8 @@
 NULL
 
 #' @rdname mod_faithful_histogram
+#' @param  variable Reactive expression yielding the variable to plot the
+#'   histogram for waiting or eruption
 #'
 #' @importFrom shiny NS tagList
 mod_faithful_histogram_ui <- function(id) {
